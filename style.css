@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {margin:25px;}
+
+.polaroid {
+  max-width: 40%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+#left {
+
+  margin: 50px 2px auto auto;
+}
+
+#right {
+
+  margin: 50px auto auto 2px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.welcome{
+  width: 90%;
+  height: 90%;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #78A1BB;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
